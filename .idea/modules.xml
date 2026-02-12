@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/next-travel-ui-ux.iml" filepath="$PROJECT_DIR$/.idea/next-travel-ui-ux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nextjs-travel_ui_ux/.idea/nextjs-travel_ui_ux.iml" filepath="$PROJECT_DIR$/../nextjs-travel_ui_ux/.idea/nextjs-travel_ui_ux.iml" />
     </modules>
   </component>
 </project>
