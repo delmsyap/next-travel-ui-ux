@@ -36,7 +36,7 @@ const Hero = () => {
 
                     <p className='bold-16 lg:bold-20 text-blue-70'>
                         198k
-                        <span className='regular-16 lg:regular-20 ml-1'>Excellent Reviews</span>
+                        <span className='regular-16 lg:regular-20 ml-1 underline'>Excellent Reviews</span>
                     </p>
                 </div>
 
@@ -54,6 +54,35 @@ const Hero = () => {
                         icon='/play.svg'
                         variant='btn_white_text'
                     />
+                </div>
+            </div>
+
+            <div className='relative flex flex-1 items-start'>
+                <div className='relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8'>
+                    <div className='flex flex-col'>
+                        <div className='flexBetween'>
+                            <p className='regular-16 text-gray-20'>Location</p>
+                            <Image
+                                src='/close.svg'
+                                alt='Close'
+                                width={24}
+                                height={24}
+                            />
+                        </div>
+                        <p className='bold-20 text-white'>Canlaon</p>
+                    </div>
+
+                    <div className='flexBetween'>
+                        <div className='flex flex-col'>
+                            <p className='regular-16 block text-gray-20'>Distance</p>
+                            <p className='bold-20 text-white'>173.28 mi</p>
+                        </div>
+
+                        <div className='flex flex-col'>
+                            <p className='regular-16 block text-gray-20'>Elevation</p>
+                            <p className='bold-20 text-white'>3.080 km</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
